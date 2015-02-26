@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Marcel Morgan"]
   spec.email         = ["marcel.morgan@codedry.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Get rates offered by Unit Trusts}
   spec.description   = %q{Get rates offered by Unit Trusts for further comparison or future information}
   spec.homepage      = "https://github.com/mcmorgan/unit_trust"
